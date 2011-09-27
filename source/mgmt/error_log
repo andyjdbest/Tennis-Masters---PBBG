@@ -1,0 +1,8 @@
+[12-May-2010 09:17:10] PHP Warning:  mysql_affected_rows(): supplied resource is not a valid MySQL-Link resource in /home/andy/public_html/alpha1/mgmt/mgmtCountry.php on line 52
+[13-May-2010 06:53:32] PHP Warning:  array_rand() [<a href='function.array-rand'>function.array-rand</a>]: First argument has to be an array in /home/andy/public_html/alpha1/mgmt/mgmtCountry.php on line 71
+[10-Jul-2010 11:47:21] PHP Parse error:  syntax error, unexpected T_FOREACH in /home/andy/public_html/alpha1/mgmt/mgmtEOS.php on line 56
+[10-Jul-2010 11:49:08] PHP Parse error:  syntax error, unexpected T_FOREACH in /home/andy/public_html/alpha1/mgmt/mgmtEOS.php on line 56
+[10-Jul-2010 11:49:20] PHP Parse error:  syntax error, unexpected T_FOREACH in /home/andy/public_html/alpha1/mgmt/mgmtEOS.php on line 56
+[10-Jul-2010 11:49:55] PHP Parse error:  syntax error, unexpected T_FOREACH in /home/andy/public_html/alpha1/mgmt/mgmtEOS.php on line 57
+[10-Jul-2010 11:51:02] PHP Fatal error:  Call to undefined function  mysql_insert() in /home/andy/public_html/alpha1/mgmt/mgmtEOS.php on line 129
+[04-Oct-2010 05:59:01] PHP Warning:  Invalid argument supplied for foreach() in /home/andy/public_html/alpha1/mgmt/mgmtPlayer.php on line 228

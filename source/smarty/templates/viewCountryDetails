@@ -1,0 +1,33 @@
+{include file="validuserHeader.tpl"}
+				
+
+<h1>Select Country</h1>
+<form action="viewCountryDetails.php" method="post">				
+<select name="countryID">
+{html_options values=$countryID output=$countryName} 
+</select>
+<input type="submit" value="Select" name="country">
+</form>
+
+	<table width="50%" border="1" cellpadding="1" cellspacing="0" id="country"> 
+  <tr class="tableHeader t"> 
+    <td width="20%">League #</td> 
+    <td width="15%"><center>League Name</center></td> 
+  </tr> 
+
+{section name=id loop=$leagueData}
+  <tr> 
+    <td><div align="center">{$leaguedata[id].index+1}</div></td> 
+    <td><div align="center"><a href="viewLeague.php?league={$leaguedata[id].idleague}">{$leaguedata[id].nameleague}</a></div></td> 
+  </tr> 
+{/section}
+</table>
+
+<br />
+
+ 
+
+
+{include file="validuserFooter.tpl"}
+
+</html>
